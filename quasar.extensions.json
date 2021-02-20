@@ -1,0 +1,34 @@
+{
+  "@quasar/testing": {
+    "harnesses": [
+      "unit-jest",
+      "e2e-cypress",
+      "quality",
+      "security"
+    ]
+  },
+  "@quasar/testing-unit-jest": {
+    "babel": "babelrc",
+    "options": [
+      "scripts",
+      "typescript",
+      "SFC",
+      "wallabyjs"
+    ]
+  },
+  "@quasar/testing-e2e-cypress": {
+    "options": [
+      "scripts",
+      "typescript"
+    ]
+  },
+  "@quasar/testing-quality": {
+    "options": [
+      "scripts"
+    ]
+  },
+  "@quasar/testing-security": {
+    "options": [],
+    "zapbrowser": "Chrome"
+  }
+}

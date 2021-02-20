@@ -1,0 +1,18 @@
+{
+  "extends": "@quasar/app/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es5",
+    "esModuleInterop": true,
+    "types": [
+      "jest",
+      "quasar"
+    ]
+  },
+  "exclude": [
+    "test/cypress",
+    "/dist",
+    ".quasar",
+    "node_modules"
+  ]
+}
